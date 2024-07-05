@@ -1,0 +1,1 @@
+This is a group project with myself, Jose Calderon and Toua Xiong. We are creating a fitness club application for users to track and share their routines with it's club members.
