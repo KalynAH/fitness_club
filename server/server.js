@@ -1,13 +1,13 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-// import router from router.js
 
 import { dbConnect } from "./config/config.mongoose.js";
+import { routineRouter } from "./routes/fitness.routes.js";
 
 const app = express();
 app.use(express.json(), cors());
-// router
+app.use("/routine", routineRouter);
 
 dotenv.config();
 const PORT = process.env.PORT;
