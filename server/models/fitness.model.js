@@ -23,6 +23,7 @@ const fitnessSchema = new Schema(
     date: {
       type: Date,
       required: [true],
+      default: Date.now(),
     },
     length_of_time: {
       type: Number,
