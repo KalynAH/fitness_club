@@ -1,0 +1,25 @@
+.routine-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  gap: 40px;
+}
+
+.routine-card {
+  cursor: pointer;
+  text-decoration: none;
+  -o-transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.routine-card:hover {
+  background-color: #209c9c;
+  color: white;
+  -o-transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
+}

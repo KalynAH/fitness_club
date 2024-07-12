@@ -1,0 +1,13 @@
+.footer-container {
+  background-color: #069797;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.app-container {
+  margin-top: -30px;
+}
+
+.app-container img {
+  cursor: pointer;
+}

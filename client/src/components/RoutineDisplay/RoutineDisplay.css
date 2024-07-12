@@ -1,0 +1,27 @@
+.container-xl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.routine-main {
+  flex: 1;
+  max-width: 600px;
+}
+
+aside {
+  flex: 1;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  -o-transition: max-width 0.3s;
+  -webkit-transition: max-width 0.3s;
+  -moz-transition: max-width 0.3s;
+  -ms-transition: max-width 0.3s;
+  transition: max-width 0.3s;
+}
+
+aside.hidden {
+  max-width: 0;
+  visibility: hidden;
+}
